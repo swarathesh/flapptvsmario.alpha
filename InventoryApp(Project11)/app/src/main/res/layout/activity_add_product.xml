@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.salyert.swarathesh.inventoryappproject11.AddProductActivity">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/detail_vertical_margin"
+    android:paddingLeft="@dimen/detail_horizontal_padding"
+    android:paddingRight="@dimen/detail_horizontal_padding"
+    android:text="Product information"
+    android:textAlignment="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <ImageView
+        android:id="@+id/add_product_image"
+        android:layout_width="@dimen/detail_image_size"
+        android:layout_height="@dimen/detail_image_size"
+        android:layout_gravity="center_horizontal"
+        android:onClick="addImage"
+        android:scaleType="fitCenter" />
+    <EditText
+        android:id="@+id/add_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="Product Name"
+        android:paddingLeft="@dimen/detail_horizontal_padding"
+        android:paddingRight="@dimen/detail_horizontal_padding"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/add_product_qnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="Product Quantity"
+        android:inputType="number"
+        android:paddingLeft="@dimen/detail_horizontal_padding"
+        android:paddingRight="@dimen/detail_horizontal_padding"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/add_product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:hint="Product Price"
+        android:inputType="number"
+        android:paddingLeft="@dimen/detail_horizontal_padding"
+        android:paddingRight="@dimen/detail_horizontal_padding"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/add_suppler_mail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Supplier Mail"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/add_supplier_name"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:hint="Supplier Name"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:id="@+id/accept_creation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/detail_vertical_margin"
+        android:gravity="center"
+        android:onClick="addProduct"
+        android:text="Add product" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InventoryApp(Project11)</string>
+    <string name="des">read external</string>
+    <string name="des1">write external</string>
+</resources>
